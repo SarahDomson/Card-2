@@ -7,16 +7,30 @@
 
 h1 {
   text-align: justify;
-  margin-left: 100px;
+  margin-left: 200px;
   font-family: 'cursive','Space Grotesk', sans-serif,'Work Sans';
   font-size: 50px;
   padding-top: 70px;
 }
 
-p {
+.lists {
   text-align: justify;
-  margin-left: 100px;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-bottom: 1px;
   padding-bottom: -50px;
+  font-weight: bold;
+  color: #36353a;
+  font-size: 17px;
+}
+
+.line {
+  text-align: justify;
+  margin-left: 200px;
+  margin-bottom: 1px;
+  padding-bottom: -50px;
+  font-weight: lighter;
+  font-size: 1.125rem;
 }
 
 .container {
@@ -25,9 +39,12 @@ p {
   background-size: cover;
   font-family: 'cursive','Space Grotesk', sans-serif,'Work Sans';
   margin-top: 50px;
-  height: 500px
+  height: 500px;
 }
 
 #star {
-  color: rgb(255, 215, 0);
+  color: #fedb01;
+  margin-right: 17px;
+  margin-top: -30px;
+  font-size: 23px;
 }
